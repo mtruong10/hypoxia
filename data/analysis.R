@@ -133,6 +133,9 @@ summary(mod7)
 mod8 <- glm(severe_AHI ~ BMI, data = mod_data, family = "binomial")
 summary(mod8)
 
+mod9 <- glm(severe_AHI ~ BMI, data = mod_data, family = "binomial")
+summary(mod8)
+
 # Results -----------------------------------------------------------------
 
 # AIC
